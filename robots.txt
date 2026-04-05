@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Prevent indexing of system paths
+Disallow: /.github/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://acrilus.one/sitemap.xml
